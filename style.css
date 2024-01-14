@@ -1,0 +1,77 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: aliceblue;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  /* margin-left: 80px;
+  margin-right: 40px; */
+  padding: 30px 210px;
+}
+
+nav h1 {
+  color: #3A3A3A;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  color: #3A3A3A;
+  font-size: 1.02rem;
+
+}
+
+nav li a {
+  text-decoration: none;
+}
+
+/* header start */
+section {
+  display: flex;
+  margin-left: 210px;
+  margin-right: 30px;
+
+}
+
+.div-2 img {
+  height: 350px;
+  margin-left: 120px;
+  margin-right: 30px;
+  background-image: url('/images/Circle\ design.svg');
+  border-radius: 50%;
+  border: 2px solid aquamarine;
+}
+
+.div-1 h1 {
+  color: #3A3A3A;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 70px;
+  /* 134.615% */
+}
+
+.div-1 p {
+  color: #3A3A3A;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-size: 16px;
+  font-weight: 600;
+
+}
+
+.btn-primary {
+  border-radius: 41px;
+  background: #E02C6D;
+  border-radius: none;
+  padding: 1rem;
+  color: white;
+}
