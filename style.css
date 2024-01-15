@@ -85,8 +85,9 @@ section {
 }
 
 /* main started */
-.section-1 {
-  /* display: flex; */
+.section-1 img {
+  display: flex;
+  margin-right: 40px;
   gap: 4rem;
   margin-top: 5rem;
 }
@@ -105,12 +106,226 @@ section {
   line-height: 70px;
   /* 250% */
 }
-  .div-3{
+
+/* .div-3{
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+} */
+.section-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.section-3 .div-3 {
   border-radius: 5px;
   background: #FFF;
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
 }
-.section-3 .div-3{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+
+.section-3 .div-4 {
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.section-3 .div-5 {
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.section-3 .div-6 {
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.section-3 .div-7 {
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.section-3 .div-8 {
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.section-3 .div-9 {
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.section-3 .div-10 {
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.section-3 .div-11 {
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.div-4,
+img,
+h3,
+h5,
+p {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.div-4,
+h3,
+h5 {
+  color: var(--Text-Gray-900, #18191F);
+  font-feature-settings: 'liga' off;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  /* 142.857% */
+}
+
+.div-4,
+p {
+  color: var(--Gray-50, #787885);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 143%;
+  /* 20.02px */
+  letter-spacing: 0.252px;
+}
+
+.section-3 :hover {
+  /* background-color: #E02C6D; */
+  box-shadow: 15px 15px lightblue;
+}
+
+/* section-5 */
+.section-5 {
+  display: flex;
+  gap: 96px;
+  margin-top: 170px;
+
+}
+
+
+.section-5 h1 {
+  color: #0A0826;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Poppins;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  /* 157.895% */
+}
+
+.section-5 p {
+  color: #6C6C6C;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  /* margin-bottom: 16px; */
+  /* 175% */
+}
+
+footer {
+  background: #0A0826;
+  width: 1440px;
+  height: 239px;
+  flex-shrink: 0;
+  align-items: center;
+}
+
+.div-13 img {
+  height: 40px;
+  border: none;
+}
+
+/* footer .div-13{
+  align-items: center;
+  justify-content: center;
+} */
+.div-13 {
+  margin-left: 630px;
+  /* margin-top: 50px; */
+}
+
+.div-13 h1 {
+  color: #FFF;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 50px;
+}
+
+div-13 p {
+  color: var(--Text-Gray-300, #D9DBE1);
+  font-feature-settings: 'liga' off;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  /* 171.429% */
+}
+.hide{
+  display: none;
+}
+/* media section */
+@media screen and (max-width:576px) {
+  nav,ul, section{
+
+    flex-direction: column;
+    text-align: center;
+    margin-left: 0px;
+    
+  }
+  nav{
+    padding: 30px 0px;
+  }
+  .div-2 img{
+    margin-left: 0;
+  }
+  .div-2 img{
+    /* margin-left: 20px; */
+    /* margin-right: 10px; */
+    width: 100%;
+  }
+  .section-1 img{
+    flex-direction: column;
+  }
+  .section-3{
+    grid-template-columns: 1fr;
+  }
+  .div-13{
+    margin-left: 0px;
+  }
+  .section-5{
+    flex-direction: column;
+    width: auto;
+  }
+  footer{
+    width: auto;
+  }
+  .section-5 img{
+    width: 100%;
+  }
 }
